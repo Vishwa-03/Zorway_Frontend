@@ -11,10 +11,18 @@ Also the project shows static attendance of the user , previous semisters marksh
 #To run the project**:
   Add following packages
   npm i
+  
   npm install @mui/material @emotion/react @emotion/styled
+  
   npm i @phosphor-icons/react
+  
   npm i react-router-dom
+  
   npm install react-tailwindcss-select
+  
   if tailwind does not work then run --> follow the documentation to create a react app with tailwind 
+  
   npm i @faker-js/faker
+  
   npm i firebase
+  npm i react-hot-toast
