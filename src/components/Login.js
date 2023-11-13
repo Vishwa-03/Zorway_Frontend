@@ -3,6 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import userLogin from "../auth/userLogin";
 import { useLocation } from "react-router-dom";
+import {toast} from "react-hot-toast"
 
 const Login = ({ toggleForm }) => {
   // Use the 'useNavigate' hook for programmatic navigation
@@ -45,6 +46,7 @@ const Login = ({ toggleForm }) => {
       // If no error, navigate to the specified path
       navigate(from, { replace: true });
       // Clear form data
+       toast.success("Login success");
       setFormData({
         email: "",
         password: "",
