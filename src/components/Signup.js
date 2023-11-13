@@ -51,6 +51,7 @@ const Signup = ({ toggleForm }) => {
         // If no error, navigate to the specified path
         navigate(from, { replace: true });
         // Clear form data
+        toast.success("Sign Up success");
         setFormData({
           name: "",
           email: "",
